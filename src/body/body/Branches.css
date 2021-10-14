@@ -1,0 +1,12 @@
+.branches {
+  width: 100%;
+  min-height: 100%;
+}
+
+.individual__branch {
+  border: 1px solid black;
+  min-height: 50px;
+  padding: 12px;
+  font-weight: 500;
+  border-radius: 8px;
+}

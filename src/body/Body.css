@@ -1,0 +1,122 @@
+.body {
+  width: 100%;
+  display: flex;
+}
+
+.body__left {
+  padding-top: 12px;
+  width: 30%;
+  height: 100vh;
+  display: inline-block;
+  overflow: scroll;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+.body__right {
+  width: 70%;
+  height: 100vh;
+  padding: 12px;
+  display: inline-block;
+  overflow: scroll;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.add__button > button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 32px;
+  background-color: rgb(203, 154, 64);
+  border: none;
+  outline: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.visible__add__repo {
+  padding: 20px;
+  top: 30%;
+  right: 45%;
+  background-color: rgb(32, 29, 29);
+  color: white;
+  min-width: 250px;
+  display: inline-block;
+  position: absolute;
+  z-index: 9999;
+  margin-left: auto;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 2;
+}
+.cross__button {
+  position: relative;
+  right: 0;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.left__oriented > input {
+  border: none;
+  outline: none;
+  padding: 8px;
+}
+.left__oriented > button {
+  cursor: pointer;
+  margin-right: 8px;
+  height: 32px;
+  border: 1px solid black;
+  color: black;
+  font-weight: 400;
+  background-color: white;
+}
+.left__oriented {
+  text-align: start;
+}
+.disable__add__repo {
+  display: none;
+}
+
+.sidebar {
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 12px;
+  width: 100%;
+  max-height: 100px;
+  border: 2px solid black;
+}
+
+.details__top {
+  padding: 12px;
+  position: relative;
+  height: 32px;
+}
+.details__top > button {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.details__option {
+  border: 1px solid black;
+  height: 32px;
+}
+
+.details__option > button {
+  cursor: pointer;
+  margin-right: 8px;
+  height: 32px;
+  border: 1px solid black;
+  color: black;
+  font-weight: 400;
+  background-color: white;
+}
